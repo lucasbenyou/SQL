@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2274
+Password=2087
 Database=
 DateFormat=
 CommitCount=0
@@ -12,15 +12,15 @@ CommitDelay=0
 InitScript=
 
 [Table]
-Owner=SYSTEM
+Owner=C##ELIAOU_HAIM
 Name=PATIENT
-Count=10..20
+Count=400..500
 
 [Record]
 Name=PATIENT_ID
 Type=NUMBER
 Size=
-Data=Random(100, 200)
+Data=Sequence(100, 1, 1200)
 Master=
 
 [Record]
